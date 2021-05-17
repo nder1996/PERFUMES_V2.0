@@ -8,10 +8,26 @@ body{background: url("/img/1.png")}
   }
 
 
-  .Menu{
+  section .Menu{
+    position: relative;
     display: inline;
-    color:white;
+    top:-6vh;
+    background-color:black;
   }
+
+  section li{
+    background-color: black;
+  }
+
+  section .Menu a{
+    position:relative;
+    font-size: 4vh;
+    margin-left: 20vh;
+    color:white;
+    top:2vh;
+  }
+
+
 
 section{
     position: relative;
@@ -20,38 +36,27 @@ section{
     text-align:right;
     display:inline-block;
     background-color: black;
-    height:55px;
+    height:9vh;
     margin-bottom: 24px;
 }
 
-section a{
-    position: relative;
-    justify-content: center;
-    color:white;
-    font-size:17px;  
-    top:-2px;   
-}
-            
-section li{
-    background-color:black;
-      position: relative;
-      width:100%;
-      height:30px;   
-      border:1px solid #000;
-      display: inline-block;
-      top:-28px;
-}
 
 .Sub-Menu{
     position: relative;
+    background-color:black;
     text-align: center;
-    width:155%;
-    height:48px;
-    top:-0.1vh;
-    left:-5vh;
+    width:70%;
+    height:14vh;
+    top:1vh;
+    left: 4.7vh;
+}
+
+section .Sub-Menu a{
+  position:relative;
+  font-size:3.3vh;
 }
        
-section li:hover{
+section li a:hover{
       border-bottom: 5px solid red;
 }
 
@@ -82,7 +87,10 @@ section li:hover>ul{
 
 
   @media (max-width: 768px){
-  
+  section{
+    position:relative;
+    font-size: 0.1vh;
+  }
   
 }
 
