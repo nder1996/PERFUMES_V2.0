@@ -1,83 +1,161 @@
 body{background: url("/img/1.png")}
 
 *{
-    padding:10px;
+    padding:20px;
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
+    top:1vh;
   }
 
-
-  section .Menu{
-    position: relative;
-    display: inline;
-    top:-6vh;
-    background-color:black;
-  }
-
-  section .Menu a{
-    position:relative;
-    font-size: 4vh;
-    margin-left: 20vh;
-    color:white;
-    top:2vh;
-  }
-
-section{
-    position: relative;
-    justify-content: center;
-    width:97.5%;
-    text-align:right;
-    display:inline-block;
-    background-color: black;
-    height:9vh;
-    margin-bottom: 24px;
-}
-
-
-section li a:hover{
-      border-bottom: 5px solid red;
-}
-
-section li a:hover {
-  color:bisque;
-}
-
-            
-section li>ul{
-    display:none;
-}
-
-section li:hover ul{
-  position:absolute;
-  background-color: black;
-  display:block;
-  width:100%;
-  top:9vh;
-  left:3vh;
-}
-
-section li:hover ul li a{
-  text-align: center;
-  left:-20vh;
-}
-
-
-
-
- a .Img-Logo{
-   position:absolute;
-   width:8%;
-   top:18px;
-   left:17px;
+ nav{
+   position: relative;
+   background-color: black;
+   text-align: right;
+   height:3vh;
  }
+
+ nav a{
+  color:white;
+  margin:0;
+  padding:0;
+  font-size:2.7vh;
+}
+
+
+ nav #Opcion-1{
+   position:relative;
+   display: inline-block;
+   top:-11.8vh;
+ }
+
+ nav #Opcion-1 a:hover{
+  border-bottom:5px solid red;
+ 
+ }
+
+ #Opcion-1 a{
+   position:relative;
+   left:6vh;
+   top:0vh;
+ }
+
+ nav .Cuenta ul{
+  position:absolute; 
+  background-color: black;
+  top:10vh;
+  left:-5vh;
+  height:27vh;
+  display:none;
+  }
+
+ nav #Opcion-2{
+  position:relative;
+  margin: 0;
+  padding:0;
+  width: 130%;
+  left:-9.8vh;
+  top:-2vh;
+}
+
+  nav #Opcion-2 i:hover{
+    border-bottom: 5px solid red;
+  }
+
+  nav .Cuenta:hover ul{
+    display:block;
+  }
+
+
+
+
+
+
+
+
+/*
+ .Cuenta ul{
+    position:relative;
+    background-color: black;
+    color:white;
+    width:106%;
+    left:-10vh;
+    height:15vh;
+    display:none;
+ }
+
+ .Cuenta a{}
+
+
+*/
+
+ /*
+ .Cuenta #Opcion-2{
+   position:relative;
+   width:50%;
+   height:5vh;
+   left:-7vh;
+    top:10vh;
+    font-size: 10vh;
+    display:inline-block;
+ }
+
+ .Cuenta ul a li{
+   font-size:2vh;
+ }
+
+
+ ul #Opcion-1{
+   position:relative;
+   width:20%;
+   display:inline;
+   left:5vh;
+   top:-9vh;
+ }
+*/
+/*
+  #Opcion-1 a{
+    color:white;
+    font-size:3.2vh;
+    margin: 0;
+    padding:0;
+  }
+
+  #Opcion-1 a:hover{
+    color:bisque;
+    border-bottom: 5px solid red;
+  }
+
+
+
+  #Opcion-2 {
+    position:relative;
+    color:white;
+  
+    top:-9.5vh;
+    left:5vh;
+    width:15%;
+  }
+
+
+*/
 
 
 
   @media (max-width: 768px){
+
+
   section{
     position:relative;
-    font-size: 0.1vh;
+    text-align:left;
+    background-color:gray;
+  }
+
+  section ul .Menu{
+    position:relative;
+    font-size: 2vh;
+    margin-left:2vh;
+    left:-1.7vh;
   }
   
 }
