@@ -15,10 +15,6 @@ body{background: url("/img/1.png")}
     background-color:black;
   }
 
-  section li{
-    background-color: black;
-  }
-
   section .Menu a{
     position:relative;
     font-size: 4vh;
@@ -27,12 +23,10 @@ body{background: url("/img/1.png")}
     top:2vh;
   }
 
-
-
 section{
     position: relative;
     justify-content: center;
-    width:100%;
+    width:97.5%;
     text-align:right;
     display:inline-block;
     background-color: black;
@@ -41,21 +35,6 @@ section{
 }
 
 
-.Sub-Menu{
-    position: relative;
-    background-color:black;
-    text-align: center;
-    width:70%;
-    height:14vh;
-    top:1vh;
-    left: 4.7vh;
-}
-
-section .Sub-Menu a{
-  position:relative;
-  font-size:3.3vh;
-}
-       
 section li a:hover{
       border-bottom: 5px solid red;
 }
@@ -69,12 +48,21 @@ section li>ul{
     display:none;
 }
 
-section li:hover>ul{
-      display:block;
-      position:absolute;
-      top:30px;
-      left:-10px;
+section li:hover ul{
+  position:absolute;
+  background-color: black;
+  display:block;
+  width:100%;
+  top:9vh;
+  left:3vh;
 }
+
+section li:hover ul li a{
+  text-align: center;
+  left:-20vh;
+}
+
+
 
 
  a .Img-Logo{
