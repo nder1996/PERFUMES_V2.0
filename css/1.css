@@ -49,20 +49,32 @@ body{background: url("/img/1.png")}
    text-align: center;
    width: 100%;
    height:150px;
-   border-bottom:10px solid DarkRed;
+   border-bottom:10px solid tra;
  }
 
  div .Img-Logo{
    position: relative;
-   top:10px;
-   left:10px;
-   width: 8%;
+   top:4px;
+   left:115px;
+   width: 8em;
  }
+
+ .Presentacion-1 .Buscar{
+  position:relative;
+  text-decoration: none;
+  width:20em;
+  left:25em;
+  top:-70px;
+  height:40px;
+  border-radius:5px;
+  background-color: antiquewhite;
+}
 
  .Portada{
   display:float;
   position:relative;
-  background-color:Bisque;
+  text-align: center;
+  background-color:DarkGrey;
   width: 100%;
   height:370px;
   top:0;
@@ -82,7 +94,7 @@ body{background: url("/img/1.png")}
   width:43%;
   height:360px;
   top: -296px;
-  left:810px;
+  left:850px;
   animation: Brillo 20s infinite alternate linear;
 }
 
@@ -99,26 +111,32 @@ body{background: url("/img/1.png")}
    text-align: center;
    width: 100%;
    height:38px;
-   background-color: navy;
+   background-color: DarkRed;
    font-family: Arial, Helvetica, sans-serif;
    font-size:9px;  
  }
 
- .Presentacion-2 .Buscar{
-   position:relative;
-   text-decoration: none;
-   outline: none;
-   left:500px;
-   top:-17.5px;
-   width:15%;
-   height:30px;
-   border-radius:5px;
-   background-color: antiquewhite;
+
+ .Portada h1 ,.Portada h3{
+  position:relative;
+  font-family: arial;
+  color:Black;
+  left:20px;
  }
+
+ .Portada h3{
+   position:relative;
+   top:230px;
+ }
+
+
+
+
 
  .Presentacion-2 h1{
   position:relative;
   top:10px;
+  
  }
 
 
@@ -137,7 +155,7 @@ body{background: url("/img/1.png")}
 	}
 
 	100% {
-    border: 10px solid red;   
+    border: 10px solid blueviolet;   
 	}
 
   }
