@@ -1,8 +1,8 @@
 body{background: url("/img/1.png")}
 
 *{
-    padding:0;
-    margin: 0;
+    max-width: 99%;
+    left:20px;
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
@@ -46,13 +46,13 @@ body{background: url("/img/1.png")}
   .Presentacion-1{
    position: relative;
    background-color: black;
+   max-width: 99%;
+   overflow:hidden;
    text-align: center;
-   width: 100%;
    height:150px;
-   border-bottom:10px solid tra;
  }
 
- div .Img-Logo{
+ .Presentacion-1 a .Img-Logo{
    position: relative;
    top:4px;
    left:115px;
@@ -71,66 +71,43 @@ body{background: url("/img/1.png")}
 }
 
  .Portada{
-  display:float;
   position:relative;
-  text-align: center;
-  background-color:DarkGrey;
-  width: 100%;
+  background-color:bisque;
+  overflow: hidden;
+  max-width: 99%;
   height:370px;
   top:0;
-
 }
 
-.Portada .Portada-Frases{
+.Portada #Letra-1{
   position:relative;
-  width: 55%;
-  height:300px;
-  top:30px;
+  color:black;
+  max-width: 50%;
+  font-size: 30px;
+  margin-left: 10px;
+  top:-17px;
+  left:-5px;
 }
 
-.Img-Portada {
+.Portada .Portada-Img{
   position:relative;
-  border-radius:10px;
-  width:43%;
-  height:360px;
-  top: -296px;
-  left:850px;
-  animation: Brillo 20s infinite alternate linear;
-}
-
-.Img-Portada img{
-  position:relative;
-  width:100%;
-  top:1px;
-  left:0px;
+  width: 48em;
+  top:-395px;
+  left: 685px;
+  animation: Borde 10s infinite alternate linear;
 }
 
 
   .Presentacion-2{
    position:relative;
    text-align: center;
-   width: 100%;
-   height:38px;
    background-color: DarkRed;
    font-family: Arial, Helvetica, sans-serif;
    font-size:9px;  
+   width: 100%;
+   height:38px;
+   top:-12px;
  }
-
-
- .Portada h1 ,.Portada h3{
-  position:relative;
-  font-family: arial;
-  color:Black;
-  left:20px;
- }
-
- .Portada h3{
-   position:relative;
-   top:230px;
- }
-
-
-
 
 
  .Presentacion-2 h1{
@@ -139,11 +116,39 @@ body{background: url("/img/1.png")}
   
  }
 
+@media  (max-width:768px){
+  
+  header .Nav-Opciones{
+    text-align: center;
+  }
 
- @keyframes Brillo{
+  header .Nav-Opciones li{
+    position: relative;
+    margin-left: 80px;
+    left:-40px;
+  }
+
+  .Presentacion-1{
+    text-align: left;
+  }
+
+  .Presentacion-1 a .Img-Logo{
+    position:relative;
+    left:40px;
+  }
+
+  .Presentacion-1 .Buscar{
+    position:relative;
+    left:40px;
+  }
+
+
+}
+
+ @keyframes Borde{
 	
   0% {
-	  border: 10px solid black;    
+	  border: 10px solid darked;    
 	}
   
 	33.3333% {
