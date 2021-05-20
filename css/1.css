@@ -1,13 +1,115 @@
 body{background: url("/img/1.png")}
 
 *{
+   position:relative;
     max-width: 99%;
-    left:20px;
+    left:5px;
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
   }
 
+.grid-container{
+  display: grid;
+  text-align: right;
+}
+
+.grid-container div{
+  text-align: left;
+}
+
+.grid-container .Barra-Cuentas{
+  display: flex;
+  text-align: left;
+  height: 45px;
+  background-color:silver;
+}
+
+.grid-container .Opciones-Usuario{
+ position:relative;
+ text-align: end;
+ width: 100%;
+ top:-11px;
+ left:10px;
+}
+.grid-container nav ul li{
+  display: inline;
+  margin-left:50px;
+  font-size: 30px;
+  left: -25px;
+}
+
+.grid-container nav li:hover{
+  border-bottom:10px solid darkgoldenrod;
+  color: darkred;
+}
+
+.grid-container .Busqueda{
+  display: flex;
+  width: 100%;
+  height: 150px;
+  background-color:navy;
+  text-align: center;
+  
+}
+
+.grid-container .Busqueda-Letra{
+  position:relative;
+  font-family: Arial, Helvetica, sans-serif;  
+  color:darkred;
+  font-size: 10px;
+  left:470px;
+  top:28px;
+}
+
+.Busqueda .Busqueda-Input{
+  position: relative;
+  width:25%;
+  height:35px;
+  top:50px;
+  left:520px;
+}
+
+.grid-container a .Img-Logo{
+  position: relative;
+  left:-5px;
+  top:-45px;
+ 
+}
+
+.Portada{
+  width:100%;
+  background-color: bisque;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
   header .Nav-Opciones{
     position:relative;
     text-align:right;
@@ -25,6 +127,14 @@ body{background: url("/img/1.png")}
   .Nav-Opciones ul i:hover{
     border-bottom: 5px solid red;
   }
+
+  .Nav-Opciones a .Img-Logo{
+    position: relative;
+    top:4px;
+    left:-900px;
+    width: 8em;
+  }
+ 
 
    .Publicidad{
     position:relative;
@@ -52,12 +162,6 @@ body{background: url("/img/1.png")}
    height:150px;
  }
 
- .Presentacion-1 a .Img-Logo{
-   position: relative;
-   top:4px;
-   left:115px;
-   width: 8em;
- }
 
  .Presentacion-1 .Buscar{
   position:relative;
