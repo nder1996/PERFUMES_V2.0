@@ -4,6 +4,7 @@ body{background: url("/img/1.png")}
    position:relative;
     max-width: 99%;
     left:5px;
+    top:5px;
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
@@ -12,91 +13,42 @@ body{background: url("/img/1.png")}
 .grid-container{
   display: grid;
   text-align: right;
+  grid-template-columns:auto;
+  grid-template-rows:auto auto auto;
 }
 
 .grid-container div{
-  text-align: left;
+  /*border: 10px solid black;*/
 }
 
-.grid-container .Barra-Cuentas{
-  display: flex;
-  text-align: left;
-  height: 45px;
-  background-color:silver;
-}
 
-.grid-container .Opciones-Usuario{
- position:relative;
- text-align: end;
- width: 100%;
- top:-11px;
- left:10px;
-}
-.grid-container nav ul li{
-  display: inline;
-  margin-left:50px;
-  font-size: 30px;
-  left: -25px;
-}
-
-.grid-container nav li:hover{
-  border-bottom:10px solid darkgoldenrod;
-  color: darkred;
-}
-
-.grid-container .Busqueda{
-  display: flex;
-  width: 100%;
-  height: 150px;
-  background-color:navy;
-  text-align: center;
-  
-}
-
-.grid-container .Busqueda-Letra{
+.grid-container .Nav-Opciones{
+  background-color: silver;
   position:relative;
-  font-family: Arial, Helvetica, sans-serif;  
-  color:darkred;
-  font-size: 10px;
-  left:470px;
-  top:28px;
+  width: 100%;
+  height: 45px;
+  top: -10px;
 }
 
-.Busqueda .Busqueda-Input{
+.grid-container .Nav-Opciones li{
   position: relative;
-  width:25%;
-  height:35px;
-  top:50px;
-  left:520px;
-}
-
-.grid-container a .Img-Logo{
-  position: relative;
-  left:-5px;
-  top:-45px;
- 
-}
-
-.Portada{
-  width:100%;
-  background-color: bisque;
+  display: inline;
+  margin-left: 70px;
+  font-size: 30px;
+  left:-10px;
+  top:-5px;
 }
 
 
+.grid-container .Nav-Opciones  i:hover{
+   border-bottom:5px solid darkred;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+.Img-Logo{
+  position:relative;
+  left:-1330px;
+  top: -56px;
+}
 
 
 
