@@ -161,7 +161,7 @@ a .Img-Logo{
 
 .Formulario-Principal{
   position:relative;
-  background-color: white;
+  background-color: transparent;
   text-align: center;
   width:50%;
   height: 600px;
@@ -189,7 +189,7 @@ a .Img-Logo{
 
 .Registrate{
   position: relative;
-  background-color: silver;
+  background-color: transparent;
   width:65%;
   left:140px;
   height:500px;
@@ -202,7 +202,7 @@ legend{
   /*background-color: silver;*/
   border-radius: 10px;
   font-size: 15px;
-  color:navy;
+  color:darkred;
   width: 100%;
   height:85px;
 }
@@ -217,7 +217,7 @@ legend h1{
 .Input-Registrate{
     position:relative;
     border-right: none;
-    background-color:silver;
+    background-color:transparent;
     padding: 0px;
     margin: 0px;
     border-left:none;
@@ -229,20 +229,20 @@ legend h1{
 }
 
 .Input-Registrate:hover{
- background-color:bisque;
+ background-color:white;
  border-radius: 10px;
 }
 
 
 .Botton-Enviar{
   position: relative;
-  background-color:white;
-  border: 2px solid black;
+  background-color:trasparent;
+  border:0;
   border-radius: 15px;
   font-size: 25px;
   width: 50%;
   height:35px;
-  color:black;
+  color:trasparent;
   top:130px;
 }
 
