@@ -10,6 +10,7 @@ body{background: url("/img/1.png")}
     box-sizing: border-box;
   }
 
+  /*--------INDEX--------*/
 .Div-Principal{
   
   width: 100%;
@@ -36,8 +37,11 @@ top:0px;
   margin-left: 50px;
   font-size:25px;
   left:1100px;
-  top:-6px;
-  
+  top:-10px;
+}
+
+.Nav-Opciones a{
+  color:black;
 }
 
 .Nav-Opciones i:hover{
@@ -112,7 +116,7 @@ a .Img-Logo{
 
 #Promocion_1{
   position:relative;
-  background-color:darkred;
+  background-color:navy;
   text-align:center;
   font-size:25px;
   width:98%;
@@ -148,7 +152,79 @@ a .Img-Logo{
 
   }
 
+/*--------INDEX--------*/
+
+/*---------------REGISTRATE-------------------*/
+
+.Registrate{
+  position: relative;
+  text-align: center;
+  width:40%;
+  left: 350px;
+  top:-50px;
+}   
+
+
+
+legend h1{
+  position:relative;
+  border-radius: 10px;
+  background-color:black;
+  color:white;
+  /*width:2000%;*/
+  left:30px;
+}
+
+.Borde-form{
+  border:10px solid black;
+  width:110%;
+  height:450px;
+  /*background-color:navy;*/
+  border-radius:20px;
+}
+
+
+
+.Input-Registrate{
+    position:relative;
+    top:25px;
+    width:70%;
+    border-radius: 10px;
+}
+
+.Botton-Enviar{
+  position: relative;
+  width: 40%;
+  height:52px;
+  background-color:white;
+  border: 2px solid black;
+  border-radius: 15px;
+  color:black;
+  font-size: 25px;
+  top:50px;
+}
+
+.Botton-Enviar:hover{
+  color:bisque;
+  background-color:black;
+}
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------------REGISTRASTE-------------------*/
