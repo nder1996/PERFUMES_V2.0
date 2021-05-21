@@ -62,10 +62,10 @@ a .Img-Logo{
 }
 
 
-
 .Publicidad-1 #Letra-Publicidad{
   position:relative;
   font-family: Arial, Helvetica, sans-serif; 
+  text-transform: uppercase;
   color:white;
   left:400px;
   width:40%;
@@ -76,16 +76,31 @@ a .Img-Logo{
 
 .Publicidad-1 .Buscar{
   position:relative;
-  background-color:bisque;
+  background-color:white;
   left:1050px;
-  width:15%;
-  height:40px;
+  width:20%;
+  height:45px;
   border-radius: 10px;
   top:-20px;
 }
 
 
+.Publicidad-2{
+  background-color:bisque;
+  text-align:right;
+  width:98%;
+  height:340px;
+  left:10px;
+  top:-115px;
+}
 
+.Publicidad-2 .Portada-Img{
+  width:50%;
+  height:325px;
+  left:-10px;
+  animation: Borde 20s infinite alternate linear;
+  border-radius: 10px;  
+}
 
 
 @media  (max-width:768px){
@@ -120,19 +135,23 @@ a .Img-Logo{
  @keyframes Borde{
 	
   0% {
-	  border: 10px solid darked;    
+    margin-left:0;
+    border: 10px solid gray;  
 	}
   
 	33.3333% {
-    border: 10px solid gray;  
+    margin-left:0;
+    border: 10px solid darkred;  
 	}
 
 	66.666% {
-    border: 10px solid navy;   
+    margin-left:0;
+    border: 10px solid  navy;  
 	}
 
 	100% {
-    border: 10px solid blueviolet;   
+    margin-left:0;
+    border: 10px solid  purple;   
 	}
 
   }
