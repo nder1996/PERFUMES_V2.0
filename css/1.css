@@ -91,46 +91,38 @@ a .Img-Logo{
   width:98%;
   height:340px;
   left:10px;
-  top:-115px;
+  top:-137px;
 }
+
+.Publicidad-2 h1{
+  width:40%;
+  top:110px;
+  color:black;
+}
+
 
 .Publicidad-2 .Portada-Img{
   width:50%;
   height:325px;
   left:-10px;
   animation: Borde 20s infinite alternate linear;
-  border-radius: 10px;  
+  border-radius: 10px; 
+  top:-90px; 
+}
+
+#Promocion_1{
+  position:relative;
+  background-color:darkred;
+  text-align:center;
+  font-size:25px;
+  width:98%;
+  left:10px;
+  top: -157px;
 }
 
 
-@media  (max-width:768px){
-  
-  header .Nav-Opciones{
-    text-align: center;
-  }
-
-  header .Nav-Opciones li{
-    position: relative;
-    margin-left: 80px;
-    left:-40px;
-  }
-
-  .Presentacion-1{
-    text-align: left;
-  }
-
-  .Presentacion-1 a .Img-Logo{
-    position:relative;
-    left:40px;
-  }
-
-  .Presentacion-1 .Buscar{
-    position:relative;
-    left:40px;
-  }
 
 
-}
 
  @keyframes Borde{
 	
