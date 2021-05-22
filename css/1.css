@@ -57,7 +57,7 @@ a .Img-Logo{
 
 .Publicidad-1{
   position:relative;
-  background-color: navy;
+  background-color: darkred;
   z-index: 1;
   width:98%;
   height:150px;
@@ -114,20 +114,6 @@ a .Img-Logo{
   border-radius: 10px; 
   top:-90px; 
 }
-
-#Promocion_1{
-  position:relative;
-  background-color:navy;
-  text-align:center;
-  font-size:25px;
-  width:98%;
-  left:10px;
-  top: -157px;
-}
-
-
-
-
 
  @keyframes Borde{
 	
@@ -305,3 +291,105 @@ legend h1{
 }
 
 /*----------LOGIN------------*/
+
+/*--------SLIDE---------*/
+
+
+
+/*--SLIDE--*/
+
+.Div-Slide{
+  position:relative;
+  width:98%;
+  left:10px;
+  background-color: white;
+  top:-125px;
+}
+
+#slide{
+	position:relative;
+	margin:auto;
+	width:1000px;
+	height:301px;
+  top:0px;
+	}
+
+.text-slide{
+  float:flex;
+  top:110px;
+  left:50px;
+  color:bisque;
+}
+	
+#slide ul{
+	position:relative;
+	top:-60px;
+	left:5px;
+	width:1000px;
+  background:url(../img/Img-3.jpg);
+
+	}
+	
+#slide ul li img{
+	position:absolute;
+	opacity:0;
+	left:0;
+	transition:opacity 1s ease-out;	
+	}
+		
+#slide ul li label{
+	position:relative;
+	z-index:3;
+	top:300px;
+	left:440px;
+	float:left;
+	width:10px;
+	height:10px;
+	margin:0 2px;
+	background:black;
+	cursor:pointer;
+	border-radius:100%;
+	}
+	
+
+#slide ul li label:active{
+	background:magenta;
+	}
+	
+#slide ul li input{
+	display:none;
+	}
+	
+#slide ul li input#boton-1:checked ~ #foto01{
+	opacity:1;	
+	}
+	
+#slide ul li input#boton-2:checked ~ #foto02{
+	opacity:1;	
+	}
+	
+#slide ul li input#boton-3:checked ~ #foto03{
+	opacity:1;	
+	}
+	
+#slide ul li input#boton-4:checked ~ #foto04{
+	opacity:1;	
+	}
+	
+#slide ul li input#boton-5:checked ~ #foto05{
+	opacity:1;	
+	}
+	
+
+
+/*--------SLIDE---------*/
+
+#Promocion_1{
+  position:relative;
+  background-color:navy;
+  text-align:center;
+  font-size:25px;
+  width:98%;
+  left:10px;
+  top: -157px;
+}
