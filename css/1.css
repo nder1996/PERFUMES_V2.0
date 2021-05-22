@@ -156,46 +156,57 @@ a .Img-Logo{
   }
 
 /*--------INDEX--------*/
-
-/*---------------REGISTRATE-------------------*/
-
-.Formulario-Principal{
+.Formulario-P{
   position:relative;
-  background-color: transparent;
   text-align: center;
-  width:50%;
+  width:98%;
   height: 600px;
   z-index: 1;
-  left:350px;
-  top:-80px;
+  left:15px;
+  top:-50px;
 }
 
-.Formulario-Principal button{
-  position:relative;
-  margin-left: 20px;
-  text-decoration: none;
-  font-size: 25px;
-  border:none;
-  top:30px;
-  color:black;
-  background-color: transparent;
+.Tabs-Usuario label{
+  display: inline-block;
+  padding: 20px;
+  color: #fff;
+  cursor: pointer;
 }
 
-.Formulario-Principal button:hover{
+.Tabs-Usuario label:hover{
   border-bottom: 5px solid red;
-  
+}
+.content{
+  position: relative;
+}
+.content div{
+  position: absolute;
+  width: 100%;
+  transition: all 600ms ease;
+  opacity: 0;
+  visibility: hidden;
+}
+#Registrate,#Login{
+  display: none;
 }
 
-.Registrate{
+#Registrate:checked ~ .Tabs-1,
+#Login:checked ~ .Tabs-2
+{
+  opacity: 1;
+  visibility: visible;
+  transform: scale(1);
+}
+
+/*---------------REGISTRATE-------------------*/
+#Registrar{
   position: relative;
   background-color: transparent;
-  width:65%;
+  width:40%;
   left:140px;
-  height:500px;
+  height:510px;
   top:40px;
   box-shadow: 0px 0px 10px 0px;
-  z-index:1;
-  display:none;
 }   
 
 legend{
@@ -250,9 +261,7 @@ legend h1{
 }
 
 /*----------LOGIN------------*/
-
-
-.Login-P{
+#Login{
   position: relative;
   background-color: transparent;
   width:60%;
@@ -263,7 +272,7 @@ legend h1{
 }
 
 
-.Login-P h1{
+#Login h1{
   position: relative;
   text-align: center;
   font-size:40px;
@@ -284,8 +293,7 @@ legend h1{
   height: 40px;
 }
 
-
-.Recordar-C{
+#Login .Recordar-C{
   position: relative;
   text-align: center;  
   width:100%;
@@ -293,16 +301,7 @@ legend h1{
   left:-10px;
 }
 
-.Recordar-C a{
-  position: relative;
-  color:black;
-  font-size:15px;
-  top:-10px;
-}
 
-.Recordar-C  :hover{
-  border:5px solid red;
-}
 
 
 

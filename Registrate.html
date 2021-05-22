@@ -13,7 +13,6 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Vollkorn:ital@1&display=swap" rel="stylesheet">
 </head>
-
 <body background="img/Fondo_Usuario.jpg">
   <header class="Cabecera">
     <nav class="Nav-Opciones">
@@ -25,9 +24,42 @@
     </nav>
   </header>
   <a href="Index.html"><img class="Img-Logo" src="img/LOGO-NUEVO.PNG"></a>
+  
+  <div class="Formulario-P">
+    <div class="Tabs-Usuario">
+        <label for="Registrate">Regístrate</label>
+        <label for="Login">Iniciar Sesión</label>
+    </div>   
+    <div class="content">
+        <input type="radio" name="radio" id="Registrate" checked>
+        <div class="Tabs-1">
+          <form class="Formulario" id="Registrar">
+            <legend>
+              <h1>REGÍSTRATE <br> <i class="fas fa-user-plus"></i></h1>
+            </legend>
+            <input class="Input-Registrate" type="text" placeholder="Nombre">&nbsp <br> <br> <br>
+            <input class="Input-Registrate" type="text" placeholder="Apellido"> &nbsp <br> <br> <br>
+            <input class="Input-Registrate" type="tel" placeholder="Telefono"> &nbsp <br> <br> <br>
+            <input class="Input-Registrate" type="tel" placeholder="Contraseña"> &nbsp
+            <br><br>
+            <input type="submit" value="Registrarme" class="Botton-Enviar" />
+            <br>
+          </form>
+        </div>
+        <input type="radio" name="radio" id="Login" checked>
+        <div class="Tabs-2">
+            <h2>Servicios</h2>
+            <p>L2225552555orem ipsum dolor sit amet, consectetur adipisicing elit. Corporis similique, expedita officiis enim iusto alias autem doloribus deleniti. Alias mollitia inventore neque dicta fuga, quos quis, facere at quae, laudantium est asperiores illo nulla nisi iure eum, aperiam facilis in.</p>
+        </div>
+    </div>
+</div>
+  
+  <!--
+  
   <div class="Formulario-Principal">
-    <button>Regístrate</button><button>Iniciar Sesión</button>
-    <form class="Registrate">
+    <button class="Boton-Opciones" id="Boton-Registrate">Regístrate</button>
+    <button class="Boton-Opciones" id="Boton-Iniciar">Iniciar Sesión</button>
+    <form class="Formulario" id="Registrate">
       <legend>
         <h1>REGÍSTRATE <br> <i class="fas fa-user-plus"></i></h1>
       </legend>
@@ -39,7 +71,7 @@
       <input type="submit" value="Registrarme" class="Botton-Enviar" />
       <br>
     </form>
-    <form class="Login-P">
+    <form action="" class="Formulario" id="Login">
           <h1>Bienvenido a Perfumes <br> <i class="fas fa-users"><br></i></h1>
           <br> <br>
           <input id="Input" class="Usuario" type="text" placeholder="Numero de telefono"> <br> <br>
@@ -52,6 +84,9 @@
         </div>
     </form>
   </div>
-</body>
 
+-->
+
+
+</body>
 </html>
