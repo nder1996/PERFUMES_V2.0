@@ -163,22 +163,25 @@ a .Img-Logo{
   height: 600px;
   z-index: 1;
   left:15px;
-  top:-50px;
+  top:-80px;
 }
 
 .Tabs-Usuario label{
   display: inline-block;
   padding: 20px;
-  color: #fff;
+  color: black;
   cursor: pointer;
+  font-size:25px;
 }
 
 .Tabs-Usuario label:hover{
   border-bottom: 5px solid red;
 }
+
 .content{
   position: relative;
 }
+
 .content div{
   position: absolute;
   width: 100%;
@@ -186,6 +189,7 @@ a .Img-Logo{
   opacity: 0;
   visibility: hidden;
 }
+
 #Registrate,#Login{
   display: none;
 }
@@ -202,10 +206,10 @@ a .Img-Logo{
 #Registrar{
   position: relative;
   background-color: transparent;
-  width:40%;
-  left:140px;
+  width:35%;
+  left:455px;
   height:510px;
-  top:40px;
+  top:-10px;
   box-shadow: 0px 0px 10px 0px;
 }   
 
@@ -261,25 +265,24 @@ legend h1{
 }
 
 /*----------LOGIN------------*/
-#Login{
+#Iniciar{
   position: relative;
   background-color: transparent;
-  width:60%;
-  height:450px;
-  left:150px;
-  top:40px;
+  width:32%;
+  left:479px;
+  height:490px;
+  top:-20px;
   box-shadow: 0px 0px 10px 0px;
 }
 
-
-#Login h1{
+#Iniciar h1{
   position: relative;
   text-align: center;
   font-size:40px;
   color:darkred;
 }
 
-#Input{
+.Input{
   position:relative;
   border-right: none;
   background-color:transparent;
@@ -288,40 +291,20 @@ legend h1{
   border-left:none;
   border-top: none;
   text-decoration: none;
-  top:25px;
+  top:5px;
   width:70%;
   height: 40px;
 }
 
-#Login .Recordar-C{
-  position: relative;
-  text-align: center;  
-  width:100%;
-  top: -310px;
-  left:-10px;
+#Iniciar .Usuario{
+  position:relative;
+  font-size:15px;
+  top:35px;
+}
+
+#Iniciar .Usuario a{
+  color:black;
 }
 
 
-
-
-
 /*----------LOGIN------------*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*---------------REGISTRASTE-------------------*/
