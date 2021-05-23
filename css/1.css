@@ -404,10 +404,10 @@ legend h1{
 
 .Top-Favoritos{
   position:relative;
-  border:3px solid black;
+  border-bottom:3px solid black;
   background-color:white;
   text-align:left;
-  top:-420px;
+  top:-360px;
   width:97%;
   left:20px;
   height:200px;
@@ -421,6 +421,9 @@ legend h1{
 #Perfume_1{
   position:relative;
   width:5%;
+  color:darkred;
+  top:-20px;
+  font-size:22px;
 }
 
 .Perfumes .Letra-Top{
@@ -447,10 +450,31 @@ legend h1{
   top:-30px;
 }
 
-
-
-.
-
-
-
 /*--------------------------------------*/
+
+/**----------TABLA CATEGORIAS--------------------**/
+
+
+.Categoria{
+  position:relative;
+  width: 97%;
+  left:20px;
+  top:-370px;
+}
+
+.Categoria h1{
+  font-size:40px;
+  border-bottom:5px solid red;
+  background-color:white;
+  width:32%;
+  color:black;
+}
+
+
+
+
+
+
+
+
+/**----------TABLA CATEGORIAS--------------------**/
