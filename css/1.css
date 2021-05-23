@@ -62,21 +62,19 @@ a .Img-Logo{
   width:98%;
   height:150px;
   top:-116px;
-  left:10px;
-  
+  left:10px;  
 }
-
 
 .Publicidad-1 #Letra-Publicidad{
   position:relative;
   font-family: Arial, Helvetica, sans-serif; 
   text-transform: uppercase;
   color:white;
+  text-align: center;
   left:400px;
-  width:40%;
+  max-width:40%;
+  font-size:3vh;
   top:45px;
-  text-align:center;
-  font-size:25px;
 }
 
 .Publicidad-1 .Buscar{
@@ -401,3 +399,58 @@ legend h1{
   left:10px;
   top: -157px;
 }
+
+/*-------PERFUMES FAVORITOS--------*/
+
+.Top-Favoritos{
+  position:relative;
+  border:3px solid black;
+  background-color:white;
+  text-align:left;
+  top:-420px;
+  width:97%;
+  left:20px;
+  height:200px;
+}
+
+.Perfumes-Favoritos{
+  top:-7px;
+  color:black;
+}
+
+#Perfume_1{
+  position:relative;
+  width:5%;
+}
+
+.Perfumes .Letra-Top{
+ width:51%;
+ top:-20px;
+}
+
+.Perfumes{
+  position:relative;
+  text-align:center;
+  width:10%;
+  top:-0px;
+}
+
+.Perfumes img{
+  position:relative;
+  width:40%;
+  top:-1px;
+}
+
+.Perfumes h3{
+  position:relative;
+  font-size:15px;
+  top:-30px;
+}
+
+
+
+.
+
+
+
+/*--------------------------------------*/
