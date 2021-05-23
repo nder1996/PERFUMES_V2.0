@@ -2,7 +2,6 @@
   background: url("/img/1.png")
 }
 
-
 *{
     position:relative;
     max-width: 99%;
@@ -102,7 +101,6 @@ a .Img-Logo{
   top:110px;
   color:black;
 }
-
 
 .Publicidad-2 .Portada-Img{
   width:50%;
@@ -300,8 +298,8 @@ legend h1{
   position:relative;
   width:98%;
   left:10px;
-  background-color: white;
-  top:-125px;
+  background-color: purple;
+  top:-130px;
 }
 
 #slide{
@@ -316,7 +314,7 @@ legend h1{
   float:flex;
   top:110px;
   left:50px;
-  color:red;
+  color:black;
 }
 
 #slide h3{
@@ -328,8 +326,7 @@ legend h1{
 	
 #slide ul{
 	position:relative;
-  background-color: red;;
-	top:-150px;
+	top:-135px;
 	left:-10px;
 	width:1000px;
   background:url(../img/Img-3.jpg);
@@ -346,7 +343,7 @@ legend h1{
 #slide ul li label{
 	position:relative;
 	z-index:3;
-	top:300px;
+	top:295px;
 	left:440px;
 	float:left;
 	width:10px;
@@ -532,40 +529,50 @@ legend h1{
 .Tabla-Perfumes{
 position:relative;
 text-align: center;
-width:90%;
+width:100%;
 height:700px;
-left:50px;
+border-spacing: 50px;
+border-collapse: separate;
+top:10px;
 }
 
 .Tabla-Perfumes .Seccion-Perfumes{
   position:relative;
-  width:25%;
-  padding: 50px;
 }
 
 .Tabla-Perfumes .Producto{
-  position:relative;
+  border-bottom:5px solid  bisque;
+  width:30%;
+ 
+}
 
-  border:10px solid red;
+.Tabla-Perfumes .Producto:hover{
+  border:5px solid black;
+  background-color:	#800000;
+  color:white;
+  border-radius:20px;
 }
 
 .Tabla-Perfumes .Titulo{
   width:100%;
   font-size:15px;
-  border-bottom:5px solid navy;
+  border:none;
+  color:black;
 }
 
 .Tabla-Perfumes .Clasificacion{
   position:relative;
   width:100%;
   border:none;
-  top:-40px;
+  top:-25px;
+  font-size:15px;
 }
 
 .Tabla-Perfumes .Descripcion{
   position:relative;
-  top:-40px;
-  text-align:justify;
+  top:-20px;
+  text-align: center;
+  font-size:15px;
 }
 
 .Tabla-Perfumes .Img-Producto{
@@ -574,6 +581,36 @@ left:50px;
 }
 
 
+.Tabla-Perfumes .Compra{
+  position:relative;
+  background-color:white;
+  border-radius: 10px;
+  outline:none;
+  color: black;
+  width:60%;
+  height:40px;
+  top:-10px;
+  }
+
+  .Tabla-Perfumes .Compra:hover{
+    background-color:black;
+    color: bisque;
+    }
+
+
+
+  .Tabla-Perfumes .Compra h3{
+    position:relative;
+    top:-10px;
+  }
+
+
+  
+  /*
+.Tabla-Perfumes .Compra:hover{
+  background-color:black;
+  color:bisque;
+  }
 
 
 
