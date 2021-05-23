@@ -508,10 +508,158 @@ legend h1{
 }
 
 
-
-
-
-
-
-
 /**----------TABLA CATEGORIAS--------------------**/
+
+
+
+/**-----------------TABLA DE PRODUCTOS------------------------------**/
+/*
+.Perfumes-Productos{
+  position:relative;
+  float:flex;
+  width:100%;
+  height: 700px;
+  top:25px;
+}
+
+.Tabla-Damas{
+  position:relative;
+  float: flex;
+  width:100%;
+  height:500px; 
+}*/
+
+.Tabla-Perfumes{
+position:relative;
+text-align: center;
+width:90%;
+height:700px;
+left:50px;
+}
+
+.Tabla-Perfumes .Seccion-Perfumes{
+  position:relative;
+  width:25%;
+  padding: 50px;
+}
+
+.Tabla-Perfumes .Producto{
+  position:relative;
+
+  border:10px solid red;
+}
+
+.Tabla-Perfumes .Titulo{
+  width:100%;
+  font-size:15px;
+  border-bottom:5px solid navy;
+}
+
+.Tabla-Perfumes .Clasificacion{
+  position:relative;
+  width:100%;
+  border:none;
+  top:-40px;
+}
+
+.Tabla-Perfumes .Descripcion{
+  position:relative;
+  top:-40px;
+  text-align:justify;
+}
+
+.Tabla-Perfumes .Img-Producto{
+  position:relative;
+  width:40%;
+}
+
+
+
+
+
+
+
+
+/*
+.Tabla-Caballeros th{
+position:relative;
+border-right: 5px solid navy;
+margin-right: 50px;
+width:25%;
+height:10px;
+color:black
+}
+
+table h1{ 
+position:relative;
+font-size: 1.2vw;
+}
+
+table img{
+position:relative;
+width:40%;
+top: -20px;
+}
+
+table p{
+position:relative;
+top: -50px;
+text-align: justify;
+
+}
+
+table button{
+position:relative;
+background-color:white;
+border-radius: 10px;
+outline:none;
+color: black;
+width:60%;
+height:35px;
+top:-10px;
+}
+
+
+table button:hover{
+background-color:black;
+color:bisque;
+}
+
+.Tabla-Damas #Compra_5{ 
+position:relative;
+top:3px;
+}
+
+.Tabla-Damas #Compra_6{ 
+position:relative;
+top:-25px;
+}
+
+.Tabla-Caballeros #Compra_5{
+position:relative;
+top: -28px;
+}
+
+.Tabla-Caballeros #Compra_6{
+position:relative;
+top: -18px;
+}
+
+
+table button h3{
+position: relative;
+top: -22px;;
+}
+
+.Clasificacion{
+position: relative;
+top:-50px;
+color:rgb(98, 4, 59);
+}
+
+
+
+
+
+
+/**-----------------TABLA DE PRODUCTOS------------------------------**/
