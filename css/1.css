@@ -470,6 +470,43 @@ legend h1{
   color:black;
 }
 
+#Opciones-Productos{
+  position:relative;
+  top:10px;
+  width:100%;
+}
+
+#Opciones-Productos #Secciones-Productos{
+  position:relative;
+  background-color: black;
+  height:75px;
+}
+
+#Opciones-Productos #Secciones-Productos h3{
+  position:relative;
+  background-color: black;
+  font-size: 25px;
+  top:10px;
+}
+
+#Opciones-Productos #Secciones-Productos h3:hover{
+ border-bottom:5px solid red;
+}
+
+
+
+#Opciones-Productos label{
+  position:relative;
+  margin-left:200px;
+  left:-110px;
+  color:white;
+  top:-50px;
+}
+
+#Opciones-Productos label:hover{
+  border: 0;
+}
+
 
 
 
