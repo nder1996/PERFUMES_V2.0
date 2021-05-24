@@ -184,10 +184,6 @@ header .Nav-Opciones {
 
 /*------------------------------SLIDE---------*/
 
-/*------BARRA DE PROMOCION---------*/
-
-/*---------------------------------*/
-
 
 /*-------PERFUMES FAVORITOS--------*/
 
@@ -240,17 +236,143 @@ header .Nav-Opciones {
 
 /*--------------------------------------*/
 
+/**----------TABLA CATEGORIAS--------------------**/
+
+.Categoria {
+  position: relative;
+  width: 97%;
+  left: 20px;
+  top: -420px;
+}
+
+.Categoria #Indicacion-Mensajes{
+  font-size: 30px;
+  border-bottom: 5px solid navy;
+  background-color: white;
+  width: 25%;
+  color: black;
+}
+
+#Opciones-Productos {
+  position: relative;
+  top: 10px;
+  width: 100%;
+}
+
+#Opciones-Productos #Secciones-Productos {
+  position: relative;
+  background-color: #f9f9f9;
+  height: 35px;
+}
+
+#Opciones-Productos #Secciones-Productos h3 {
+  position: relative;
+  color:black;
+  font-size: 25px;
+  top: 10px;
+}
+
+#Opciones-Productos #Secciones-Productos h3:hover {
+  border-bottom: 5px solid red;
+}
+
+#Secciones-Productos #label-Productos{
+  position: relative;
+  margin-left: 200px;
+  left: -110px;
+  color: white;
+  top: -50px;
+  width:20%;
+}
+
+#Opciones-Productos label:hover {
+  border: 0;
+}
+/**----------TABLA CATEGORIAS--------------------**/
+/**-----------------TABLA DE PRODUCTOS------------------------------**/
+
+.Tabla-Perfumes {
+  position: relative;
+  text-align: center;
+  width: 100%;
+  height: 700px;
+  border-spacing: 50px;
+  border-collapse: separate;
+  top: 10px;
+}
+
+.Tabla-Perfumes .Seccion-Perfumes {
+  position: relative;
+  background-color:trasparent;
+}
+
+.Tabla-Perfumes .Producto {
+  border-bottom: 5px solid bisque;
+  width: 30%;
+
+}
+
+.Tabla-Perfumes .Producto:hover {
+  border: 2px solid black;
+  background-color: #eeeeee;
+  color: black;     
+  border-radius: 20px;
+}
+
+
+.Tabla-Perfumes .Titulo {
+  width: 100%;
+  font-size: 15px;
+}
+
+.Tabla-Perfumes .Precio {
+  position: relative;
+  width: 100%;
+  border: none;
+  top: -20px;
+  font-size: 15px;
+}
+
+.Tabla-Perfumes .Descripcion {
+  position: relative;
+  top: -20px;
+  text-align: center;
+  font-size: 15px;
+}
+
+
+.Tabla-Perfumes .Img-Producto {
+  position: relative;
+  width: 40%;
+}
+.Tabla-Perfumes .Compra {
+  position: relative;
+  background-color: white;
+  border-radius: 10px;
+  outline: none;
+  color: black;
+  width: 60%;
+  height: 40px;
+  top: -10px;
+}
+
+.Tabla-Perfumes .Compra:hover {
+  background-color: black;
+  color: bisque;
+}
+
+.Tabla-Perfumes .Compra h3 {
+  position: relative;
+  top: -6px;
+}
+/**-----------------TABLA DE PRODUCTOS------------------------------**/
 
 
 
 
 
 
-
-
-
-
-/*--------INDEX--------*/
+/*-------- TABLA --------*/
 .Formulario-P {
   position: relative;
   text-align: center;
@@ -408,161 +530,3 @@ legend h1 {
 
 
 
-
-#Promocion_1 {
-  position: relative;
-  background-color: navy;
-  text-align: center;
-  font-size: 25px;
-  width: 98%;
-  left: 10px;
-  top: -157px;
-}
-
-
-
-/**----------TABLA CATEGORIAS--------------------**/
-
-
-.Categoria {
-  position: relative;
-  width: 97%;
-  left: 20px;
-  top: -370px;
-}
-
-.Categoria h1 {
-  font-size: 30px;
-  border-bottom: 5px solid red;
-  background-color: white;
-  width: 25%;
-  color: black;
-}
-
-#Opciones-Productos {
-  position: relative;
-  top: 10px;
-  width: 100%;
-}
-
-#Opciones-Productos #Secciones-Productos {
-  position: relative;
-  background-color: black;
-  height: 75px;
-}
-
-#Opciones-Productos #Secciones-Productos h3 {
-  position: relative;
-  background-color: black;
-  font-size: 25px;
-  top: 10px;
-}
-
-#Opciones-Productos #Secciones-Productos h3:hover {
-  border-bottom: 5px solid red;
-}
-
-
-
-#Opciones-Productos label {
-  position: relative;
-  margin-left: 200px;
-  left: -110px;
-  color: white;
-  top: -50px;
-}
-
-#Opciones-Productos label:hover {
-  border: 0;
-}
-
-
-/**----------TABLA CATEGORIAS--------------------**/
-
-
-
-/**-----------------TABLA DE PRODUCTOS------------------------------**/
-
-.Tabla-Perfumes {
-  position: relative;
-  text-align: center;
-  width: 100%;
-  height: 700px;
-  border-spacing: 50px;
-  border-collapse: separate;
-  top: 10px;
-}
-
-.Tabla-Perfumes .Seccion-Perfumes {
-  position: relative;
-}
-
-.Tabla-Perfumes .Producto {
-  border-bottom: 5px solid bisque;
-  width: 30%;
-
-}
-
-.Tabla-Perfumes .Producto:hover {
-  border: 5px solid black;
-  background-color: #d9d9d9;
-  color: white;
-  border-radius: 20px;
-}
-
-
-.Tabla-Perfumes .Titulo {
-  width: 100%;
-  font-size: 15px;
-  border: none;
-  color: black;
-}
-
-.Tabla-Perfumes .Clasificacion {
-  position: relative;
-  width: 100%;
-  border: none;
-  top: -25px;
-  font-size: 15px;
-}
-
-.Tabla-Perfumes .Descripcion {
-  position: relative;
-  top: -20px;
-  text-align: center;
-  font-size: 15px;
-}
-
-.Tabla-Perfumes .Img-Producto {
-  position: relative;
-  width: 40%;
-}
-
-
-.Tabla-Perfumes .Compra {
-  position: relative;
-  background-color: white;
-  border-radius: 10px;
-  outline: none;
-  color: black;
-  width: 60%;
-  height: 40px;
-  top: -10px;
-}
-
-.Tabla-Perfumes .Compra:hover {
-  background-color: black;
-  color: bisque;
-}
-
-
-
-.Tabla-Perfumes .Compra h3 {
-  position: relative;
-  top: -10px;
-}
-
-
-
-
-/**-----------------TABLA DE PRODUCTOS------------------------------**/
